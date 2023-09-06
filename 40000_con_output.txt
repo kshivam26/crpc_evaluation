@@ -1,0 +1,211 @@
+I [../src/deptran/s_main.cc:136] 2023-06-27 19:54:20.269 | PWD : 
+I [../src/deptran/s_main.cc:284] 2023-06-27 19:54:20.269 | starting process 3245551
+I [../src/deptran/s_main.cc:279] 2023-06-27 19:54:20.269 | ulimit -n is 1024
+I [../src/deptran/config.cc:285] 2023-06-27 19:54:20.269 | LoadYML: depfast-ae/config/none_fpga_raft.yml
+I [../src/deptran/config.cc:285] 2023-06-27 19:54:20.270 | LoadYML: depfast-ae/config/1c1s3r1p.yml
+I [../src/deptran/config.cc:403] 2023-06-27 19:54:20.271 | BuildSiteProcMap
+I [../src/deptran/config.cc:285] 2023-06-27 19:54:20.271 | LoadYML: depfast-ae/config/rw.yml
+I [../src/deptran/config.cc:655] 2023-06-27 19:54:20.272 | group size: 1
+I [../src/deptran/config.cc:285] 2023-06-27 19:54:20.272 | LoadYML: depfast-ae/config/concurrent_40000.yml
+I [../src/deptran/config.cc:320] 2023-06-27 19:54:20.274 | # of concurrent requests: 40000
+I [../src/deptran/s_main.cc:290] 2023-06-27 19:54:20.274 | Read config finish
+I [../src/deptran/s_main.cc:30] 2023-06-27 19:54:20.274 | client_setup_heartbeat
+I [../src/deptran/s_main.cc:75] 2023-06-27 19:54:20.274 | server enabled, number of sites: 3
+I [../src/deptran/s_main.cc:81] 2023-06-27 19:54:20.274 | launching site: 0, bind address 0.0.0.0:18000
+I [../src/deptran/s_main.cc:81] 2023-06-27 19:54:20.274 | launching site: 1, bind address 0.0.0.0:18001
+I [../src/deptran/s_main.cc:81] 2023-06-27 19:54:20.275 | launching site: 2, bind address 0.0.0.0:18002
+I [../src/deptran/server_worker.cc:82] 2023-06-27 19:54:20.275 | start data population for site 0
+I [../src/deptran/server_worker.cc:82] 2023-06-27 19:54:20.277 | start data population for site 2
+I [../src/deptran/server_worker.cc:82] 2023-06-27 19:54:20.276 | start data population for site 1
+I [../src/deptran/server_worker.cc:109] 2023-06-27 19:54:21.748 | data populated for site: 2, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 19:54:21.749 | table popped for site 2
+I [../src/deptran/server_worker.cc:124] 2023-06-27 19:54:21.749 | enter SetupService for s301 @ 0.0.0.0:18002
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 19:54:21.749 | bind address is: 0.0.0.0:18002
+I [../src/deptran/server_worker.cc:109] 2023-06-27 19:54:21.749 | data populated for site: 0, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 19:54:21.750 | table popped for site 0
+I [../src/deptran/server_worker.cc:124] 2023-06-27 19:54:21.750 | enter SetupService for s101 @ 0.0.0.0:18000
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 19:54:21.750 | rrr::Server: started on 0.0.0.0:18002
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 19:54:21.749 | starting disk thread
+I [../src/deptran/server_worker.cc:178] 2023-06-27 19:54:21.750 | Server s301 ready at 0.0.0.0:18002
+I [../src/deptran/s_main.cc:97] 2023-06-27 19:54:21.750 | start communication for site 2
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:21.751 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 19:54:21.750 | starting disk thread
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 19:54:21.750 | starting poll thread
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 19:54:21.750 | bind address is: 0.0.0.0:18000
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 19:54:21.752 | starting poll thread
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 19:54:21.752 | rrr::Server: started on 0.0.0.0:18000
+I [../src/deptran/server_worker.cc:178] 2023-06-27 19:54:21.753 | Server s101 ready at 0.0.0.0:18000
+I [../src/deptran/s_main.cc:97] 2023-06-27 19:54:21.753 | start communication for site 0
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:21.753 | size of partitions: 1
+I [../src/deptran/server_worker.cc:109] 2023-06-27 19:54:21.762 | data populated for site: 1, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 19:54:21.762 | table popped for site 1
+I [../src/deptran/server_worker.cc:124] 2023-06-27 19:54:21.762 | enter SetupService for s201 @ 0.0.0.0:18001
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 19:54:21.762 | bind address is: 0.0.0.0:18001
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 19:54:21.762 | rrr::Server: started on 0.0.0.0:18001
+I [../src/deptran/server_worker.cc:178] 2023-06-27 19:54:21.762 | Server s201 ready at 0.0.0.0:18001
+I [../src/deptran/s_main.cc:97] 2023-06-27 19:54:21.762 | start communication for site 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 19:54:21.762 | starting disk thread
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:21.762 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 19:54:21.763 | starting poll thread
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:21.763 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 19:54:21.763 | site 1 launched!
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:22.752 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 19:54:22.752 | site 2 launched!
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:22.754 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 19:54:22.754 | site 0 launched!
+I [../src/deptran/s_main.cc:110] 2023-06-27 19:54:23.275 | waiting for server setup threads.
+I [../src/deptran/s_main.cc:114] 2023-06-27 19:54:23.275 | done waiting for server setup threads.
+I [../src/deptran/s_main.cc:121] 2023-06-27 19:54:23.275 | server workers' communicators setup
+I [../src/deptran/s_main.cc:54] 2023-06-27 19:54:23.275 | client enabled, number of sites: 1
+I [../src/deptran/communicator.cc:25] 2023-06-27 19:54:23.275 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 19:54:23.275 | starting poll thread
+I [../src/deptran/communicator.cc:74] 2023-06-27 19:54:23.277 | Done waiting to connect to client leaders.
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.290 | created 1024, busy 1023, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.301 | created 2048, busy 2047, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/deptran/fpga_raft/commo.cc:294] 2023-06-27 19:54:23.310 | tid of leader is 3245560
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.317 | created 3072, busy 3071, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.331 | created 4096, busy 4095, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.346 | created 5120, busy 5119, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.369 | created 6144, busy 6143, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.384 | created 7168, busy 7167, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.398 | created 8192, busy 8191, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.409 | created 9216, busy 9215, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.418 | created 10240, busy 10239, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.427 | created 11264, busy 11263, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.436 | created 12288, busy 12287, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.444 | created 13312, busy 13311, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.453 | created 14336, busy 14335, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.462 | created 15360, busy 15359, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.470 | created 16384, busy 16383, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.479 | created 17408, busy 17407, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:23.500 | wait for finish... n_ceased_cleints: 0,  n_issued: 1048, n_done: 35, n_created_coordinator: 1013
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.521 | created 18432, busy 18431, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.530 | created 19456, busy 19455, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.538 | created 20480, busy 20479, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.547 | created 21504, busy 21503, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.554 | created 1024, busy 1023, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.555 | created 22528, busy 22527, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.564 | created 23552, busy 23551, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.572 | created 24576, busy 24575, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.580 | created 25600, busy 25599, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.588 | created 26624, busy 26623, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.597 | created 27648, busy 27647, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.606 | created 28672, busy 28671, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.615 | created 29696, busy 29695, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.622 | created 1024, busy 1023, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.623 | created 1024, busy 1023, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.625 | created 30720, busy 30719, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.634 | created 31744, busy 31743, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.643 | created 32768, busy 32767, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.652 | created 33792, busy 33791, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.661 | created 34816, busy 34815, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.669 | created 35840, busy 35839, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.677 | created 36864, busy 36863, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.685 | created 37888, busy 37887, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.693 | created 38912, busy 38911, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.700 | created 39936, busy 39935, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/deptran/client_worker.cc:329] 2023-06-27 19:54:23.701 | wait for all virtual clients to stop issuing new requests.
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.885 | created 2048, busy 2047, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.927 | created 3072, busy 3071, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:23.968 | created 4096, busy 4095, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.007 | created 5120, busy 5119, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.046 | created 6144, busy 6143, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.086 | created 7168, busy 7167, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.203 | created 8192, busy 8191, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.232 | created 9216, busy 9215, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.258 | created 10240, busy 10239, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.286 | created 11264, busy 11263, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.311 | created 12288, busy 12287, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.337 | created 13312, busy 13311, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.362 | created 14336, busy 14335, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.387 | created 15360, busy 15359, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.412 | created 16384, busy 16383, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.436 | created 17408, busy 17407, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.559 | created 18432, busy 18431, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.576 | created 2048, busy 2047, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.591 | created 2048, busy 2047, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.592 | created 19456, busy 19455, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.599 | created 3072, busy 3071, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.620 | created 3072, busy 3071, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.621 | created 20480, busy 20479, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.621 | created 4096, busy 4095, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.644 | created 5120, busy 5119, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.646 | created 4096, busy 4095, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.653 | created 21504, busy 21503, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.667 | created 6144, busy 6143, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.673 | created 5120, busy 5119, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.685 | created 22528, busy 22527, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.690 | created 7168, busy 7167, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.699 | created 6144, busy 6143, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.713 | created 8192, busy 8191, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.716 | created 23552, busy 23551, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.726 | created 7168, busy 7167, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.735 | created 9216, busy 9215, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.749 | created 24576, busy 24575, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.753 | created 8192, busy 8191, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.758 | created 10240, busy 10239, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.781 | created 11264, busy 11263, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.781 | created 25600, busy 25599, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.782 | created 9216, busy 9215, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.803 | created 12288, busy 12287, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.807 | created 10240, busy 10239, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.815 | created 26624, busy 26623, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.825 | created 13312, busy 13311, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.835 | created 11264, busy 11263, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.847 | created 14336, busy 14335, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.850 | created 27648, busy 27647, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.861 | created 12288, busy 12287, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.869 | created 15360, busy 15359, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.883 | created 28672, busy 28671, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.888 | created 13312, busy 13311, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.891 | created 16384, busy 16383, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.909 | created 17408, busy 17407, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.915 | created 14336, busy 14335, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.919 | created 29696, busy 29695, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.941 | created 15360, busy 15359, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.952 | created 30720, busy 30719, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.965 | created 16384, busy 16383, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.983 | created 31744, busy 31743, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:24.989 | created 17408, busy 17407, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.014 | created 32768, busy 32767, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.044 | created 33792, busy 33791, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.074 | created 34816, busy 34815, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.105 | created 35840, busy 35839, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.135 | created 36864, busy 36863, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.167 | created 37888, busy 37887, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.368 | created 38912, busy 38911, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.392 | created 39936, busy 39935, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.639 | created 18432, busy 18431, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.662 | created 19456, busy 19455, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.685 | created 20480, busy 20479, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.709 | created 21504, busy 21503, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.771 | created 18432, busy 18431, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.797 | created 19456, busy 19455, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.823 | created 20480, busy 20479, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 19:54:25.847 | created 21504, busy 21503, idle 0 coroutines on server 0, recent :0
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:28.500 | wait for finish... n_ceased_cleints: 0,  n_issued: 81930, n_done: 41930, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:33.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 147818, n_done: 107818, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:38.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 223175, n_done: 183175, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:43.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 300430, n_done: 260430, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:48.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 373772, n_done: 333772, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:53.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 453433, n_done: 413433, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:54:58.501 | wait for finish... n_ceased_cleints: 0,  n_issued: 523858, n_done: 483858, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:03.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 600043, n_done: 560043, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:08.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 676595, n_done: 636595, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:13.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 751642, n_done: 711642, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:18.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 823493, n_done: 783493, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:23.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 896405, n_done: 856405, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:28.502 | wait for finish... n_ceased_cleints: 0,  n_issued: 969535, n_done: 929535, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:33.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1045969, n_done: 1005969, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:38.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1122139, n_done: 1082139, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:43.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1194123, n_done: 1154123, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:48.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1268775, n_done: 1228776, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:53.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1343823, n_done: 1303823, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:55:58.503 | wait for finish... n_ceased_cleints: 0,  n_issued: 1413395, n_done: 1373395, n_created_coordinator: 40000
+I [../src/deptran/s_main.cc:140] 2023-06-27 19:56:03.276 | wait_for_clients: wait for client threads to exit.
+I [../src/deptran/client_worker.cc:342] 2023-06-27 19:56:03.504 | wait for finish... n_ceased_cleints: 0,  n_issued: 1493395, n_done: 1453395, n_created_coordinator: 40000
+I [../src/deptran/client_worker.cc:332] 2023-06-27 19:56:05.577 | wait for all outstanding requests to finish.
+I [../src/deptran/client_worker.cc:353] 2023-06-27 19:56:08.504 | Finish:
+Total: 1506570, Commit: 1506570, Attempts: 0, Running for 100, Throughput: 15065.70
+
+I [../src/deptran/s_main.cc:323] 2023-06-27 19:56:08.505 | all clients have shut down.

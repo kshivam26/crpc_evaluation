@@ -1,0 +1,104 @@
+I [../src/deptran/s_main.cc:136] 2023-06-27 20:18:59.567 | PWD : 
+I [../src/deptran/s_main.cc:284] 2023-06-27 20:18:59.567 | starting process 3250897
+I [../src/deptran/s_main.cc:279] 2023-06-27 20:18:59.567 | ulimit -n is 1024
+I [../src/deptran/config.cc:285] 2023-06-27 20:18:59.567 | LoadYML: depfast-ae/config/none_fpga_raft.yml
+I [../src/deptran/config.cc:285] 2023-06-27 20:18:59.568 | LoadYML: depfast-ae/config/1c1s3r1p.yml
+I [../src/deptran/config.cc:403] 2023-06-27 20:18:59.569 | BuildSiteProcMap
+I [../src/deptran/config.cc:285] 2023-06-27 20:18:59.569 | LoadYML: depfast-ae/config/rw.yml
+I [../src/deptran/config.cc:655] 2023-06-27 20:18:59.570 | group size: 1
+I [../src/deptran/config.cc:285] 2023-06-27 20:18:59.570 | LoadYML: depfast-ae/config/concurrent_70000.yml
+I [../src/deptran/config.cc:320] 2023-06-27 20:18:59.571 | # of concurrent requests: 4464
+I [../src/deptran/s_main.cc:290] 2023-06-27 20:18:59.571 | Read config finish
+I [../src/deptran/s_main.cc:30] 2023-06-27 20:18:59.571 | client_setup_heartbeat
+I [../src/deptran/s_main.cc:75] 2023-06-27 20:18:59.571 | server enabled, number of sites: 3
+I [../src/deptran/s_main.cc:81] 2023-06-27 20:18:59.571 | launching site: 0, bind address 0.0.0.0:18000
+I [../src/deptran/s_main.cc:81] 2023-06-27 20:18:59.571 | launching site: 1, bind address 0.0.0.0:18001
+I [../src/deptran/s_main.cc:81] 2023-06-27 20:18:59.571 | launching site: 2, bind address 0.0.0.0:18002
+I [../src/deptran/server_worker.cc:82] 2023-06-27 20:18:59.572 | start data population for site 0
+I [../src/deptran/server_worker.cc:82] 2023-06-27 20:18:59.572 | start data population for site 1
+I [../src/deptran/server_worker.cc:82] 2023-06-27 20:18:59.572 | start data population for site 2
+I [../src/deptran/server_worker.cc:109] 2023-06-27 20:19:01.164 | data populated for site: 2, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 20:19:01.164 | table popped for site 2
+I [../src/deptran/server_worker.cc:124] 2023-06-27 20:19:01.164 | enter SetupService for s301 @ 0.0.0.0:18002
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 20:19:01.164 | bind address is: 0.0.0.0:18002
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 20:19:01.164 | starting disk thread
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 20:19:01.165 | rrr::Server: started on 0.0.0.0:18002
+I [../src/deptran/server_worker.cc:178] 2023-06-27 20:19:01.165 | Server s301 ready at 0.0.0.0:18002
+I [../src/deptran/s_main.cc:97] 2023-06-27 20:19:01.166 | start communication for site 2
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:01.166 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 20:19:01.165 | starting poll thread
+I [../src/deptran/server_worker.cc:109] 2023-06-27 20:19:01.177 | data populated for site: 1, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 20:19:01.177 | table popped for site 1
+I [../src/deptran/server_worker.cc:124] 2023-06-27 20:19:01.177 | enter SetupService for s201 @ 0.0.0.0:18001
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 20:19:01.177 | bind address is: 0.0.0.0:18001
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 20:19:01.177 | rrr::Server: started on 0.0.0.0:18001
+I [../src/deptran/server_worker.cc:178] 2023-06-27 20:19:01.177 | Server s201 ready at 0.0.0.0:18001
+I [../src/deptran/s_main.cc:97] 2023-06-27 20:19:01.178 | start communication for site 1
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:01.178 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 20:19:01.177 | starting disk thread
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 20:19:01.178 | starting poll thread
+I [../src/deptran/server_worker.cc:109] 2023-06-27 20:19:01.189 | data populated for site: 0, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-06-27 20:19:01.189 | table popped for site 0
+I [../src/deptran/server_worker.cc:124] 2023-06-27 20:19:01.189 | enter SetupService for s101 @ 0.0.0.0:18000
+I [../src/rrr/rpc/server.cpp:575] 2023-06-27 20:19:01.189 | bind address is: 0.0.0.0:18000
+I [../src/rrr/rpc/server.cpp:570] 2023-06-27 20:19:01.189 | rrr::Server: started on 0.0.0.0:18000
+I [../src/deptran/server_worker.cc:178] 2023-06-27 20:19:01.190 | Server s101 ready at 0.0.0.0:18000
+I [../src/deptran/s_main.cc:97] 2023-06-27 20:19:01.190 | start communication for site 0
+I [../src/rrr/reactor/reactor.cc:385] 2023-06-27 20:19:01.189 | starting disk threadI [../src/deptran/communicator.cc:25] 2023-06-27 20:19:01.190 | size of partitions: 1
+
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 20:19:01.190 | starting poll thread
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:01.190 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 20:19:01.191 | site 0 launched!
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:02.166 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 20:19:02.167 | site 2 launched!
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:02.178 | size of partitions: 1
+I [../src/deptran/s_main.cc:99] 2023-06-27 20:19:02.178 | site 1 launched!
+I [../src/deptran/s_main.cc:110] 2023-06-27 20:19:02.571 | waiting for server setup threads.
+I [../src/deptran/s_main.cc:114] 2023-06-27 20:19:02.571 | done waiting for server setup threads.
+I [../src/deptran/s_main.cc:121] 2023-06-27 20:19:02.571 | server workers' communicators setup
+I [../src/deptran/s_main.cc:54] 2023-06-27 20:19:02.571 | client enabled, number of sites: 1
+I [../src/deptran/communicator.cc:25] 2023-06-27 20:19:02.572 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-06-27 20:19:02.572 | starting poll thread
+I [../src/deptran/communicator.cc:74] 2023-06-27 20:19:02.573 | Done waiting to connect to client leaders.
+I [../src/deptran/fpga_raft/commo.cc:294] 2023-06-27 20:19:02.585 | tid of leader is 3250908
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:02.587 | created 1024, busy 1023, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:02.599 | created 2048, busy 2047, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:02.612 | wait for finish... n_ceased_cleints: 0,  n_issued: 51, n_done: 6, n_created_coordinator: 45
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:02.613 | created 3072, busy 3071, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/deptran/client_worker.cc:329] 2023-06-27 20:19:02.621 | wait for all virtual clients to stop issuing new requests.
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:02.625 | created 4096, busy 4095, idle 0 coroutines on server 0, recent ../src/rrr/reactor/reactor.cc:1b6
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:02.865 | created 1024, busy 1023, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:03.112 | created 2048, busy 2047, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:03.377 | created 3072, busy 3071, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:03.593 | created 4096, busy 4095, idle 0 coroutines on server 0, recent ../src/rrr/rpc/server.cpp:21359ed9
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:06.330 | created 1024, busy 1023, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:06.434 | created 1024, busy 1023, idle 0 coroutines on server 0, recent :0
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:06.846 | created 2048, busy 2047, idle 0 coroutines on server 0, recent :0
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:07.612 | wait for finish... n_ceased_cleints: 0,  n_issued: 66341, n_done: 61877, n_created_coordinator: 4464
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:08.530 | created 2048, busy 2047, idle 0 coroutines on server 0, recent :0
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:12.612 | wait for finish... n_ceased_cleints: 0,  n_issued: 139651, n_done: 135187, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:17.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 206108, n_done: 201644, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:22.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 281187, n_done: 276723, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:27.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 345134, n_done: 340670, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:32.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 407392, n_done: 402928, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:37.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 472728, n_done: 468264, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:42.613 | wait for finish... n_ceased_cleints: 0,  n_issued: 536140, n_done: 531676, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:47.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 603031, n_done: 598567, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:52.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 666611, n_done: 662147, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:19:57.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 731939, n_done: 727475, n_created_coordinator: 4464
+I [../src/rrr/reactor/reactor.cc:91] 2023-06-27 20:19:57.885 | created 3072, busy 3071, idle 0 coroutines on server 0, recent :0
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:02.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 802888, n_done: 798424, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:07.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 866559, n_done: 862095, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:12.614 | wait for finish... n_ceased_cleints: 0,  n_issued: 935573, n_done: 931109, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:17.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1001660, n_done: 997196, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:22.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1071742, n_done: 1067278, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:27.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1133798, n_done: 1129334, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:32.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1201648, n_done: 1197184, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:37.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1262287, n_done: 1257823, n_created_coordinator: 4464
+I [../src/deptran/s_main.cc:140] 2023-06-27 20:20:42.573 | wait_for_clients: wait for client threads to exit.
+I [../src/deptran/client_worker.cc:342] 2023-06-27 20:20:42.615 | wait for finish... n_ceased_cleints: 0,  n_issued: 1333537, n_done: 1329073, n_created_coordinator: 4464
+I [../src/deptran/client_worker.cc:332] 2023-06-27 20:20:43.624 | wait for all outstanding requests to finish.
+I [../src/deptran/client_worker.cc:353] 2023-06-27 20:20:47.615 | Finish:
+Total: 1346067, Commit: 1346067, Attempts: 0, Running for 100, Throughput: 13460.67
+
+I [../src/deptran/s_main.cc:323] 2023-06-27 20:20:47.616 | all clients have shut down.

@@ -1,0 +1,548 @@
+I [../src/deptran/s_main.cc:136] 2023-07-13 22:46:43.432 | PWD : 
+I [../src/deptran/s_main.cc:284] 2023-07-13 22:46:43.432 | starting process 3498830
+I [../src/deptran/s_main.cc:279] 2023-07-13 22:46:43.432 | ulimit -n is 1024
+I [../src/deptran/config.cc:285] 2023-07-13 22:46:43.432 | LoadYML: depfast-ae/config/none_fpga_raft.yml
+I [../src/deptran/config.cc:285] 2023-07-13 22:46:43.433 | LoadYML: depfast-ae/config/60c1s7r1p.yml
+I [../src/deptran/config.cc:404] 2023-07-13 22:46:43.435 | BuildSiteProcMap
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name s701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name c101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name c201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.435 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.435 | BuildSiteProcMap site name c301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c1001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c1101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.436 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.436 | BuildSiteProcMap site name c1201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.437 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.437 | BuildSiteProcMap site name c1901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.438 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.438 | BuildSiteProcMap site name c2801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.439 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.439 | BuildSiteProcMap site name c2901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.439 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.439 | BuildSiteProcMap site name c3001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.439 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.439 | BuildSiteProcMap site name c3101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.439 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.439 | BuildSiteProcMap site name c3201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.440 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.440 | BuildSiteProcMap site name c3301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.440 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c3901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.441 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.441 | BuildSiteProcMap site name c4501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c4601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c4701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c4801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c4901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5101
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5201
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5301
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5401
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5501
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5601
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5701
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.442 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.442 | BuildSiteProcMap site name c5801
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.443 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.443 | BuildSiteProcMap site name c5901
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.443 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-13 22:46:43.443 | BuildSiteProcMap site name c6001
+I [../src/deptran/config.cc:409] 2023-07-13 22:46:43.443 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.445 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.446 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.447 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-13 22:46:43.448 | loading proc name localhost
+I [../src/deptran/config.cc:285] 2023-07-13 22:46:43.448 | LoadYML: depfast-ae/config/rw.yml
+I [../src/deptran/config.cc:661] 2023-07-13 22:46:43.450 | group size: 1
+I [../src/deptran/config.cc:285] 2023-07-13 22:46:43.450 | LoadYML: depfast-ae/config/concurrent_60.yml
+I [../src/deptran/config.cc:321] 2023-07-13 22:46:43.450 | # of concurrent requests: 60
+I [../src/deptran/s_main.cc:290] 2023-07-13 22:46:43.450 | Read config finish
+I [../src/deptran/config.cc:909] 2023-07-13 22:46:43.451 | proc name is: localhost
+I [../src/deptran/config.cc:910] 2023-07-13 22:46:43.451 | the size of the searching vector is:60 
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.451 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.451 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.452 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.452 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/s_main.cc:30] 2023-07-13 22:46:43.453 | client_setup_heartbeat
+I [../src/deptran/config.cc:909] 2023-07-13 22:46:43.453 | proc name is: localhost
+I [../src/deptran/config.cc:910] 2023-07-13 22:46:43.453 | the size of the searching vector is:7 
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-13 22:46:43.453 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-13 22:46:43.453 | one result pushed to result in SitesByProcessName
+I [../src/deptran/s_main.cc:75] 2023-07-13 22:46:43.453 | server enabled, number of sites: 7
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 0, bind address 0.0.0.0:7140
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 1, bind address 0.0.0.0:7141
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 2, bind address 0.0.0.0:7142
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 4, bind address 0.0.0.0:7144
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 6, bind address 0.0.0.0:7147
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 3, bind address 0.0.0.0:7143
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.455 | start data population for site 1
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.454 | start data population for site 0
+I [../src/deptran/s_main.cc:81] 2023-07-13 22:46:43.454 | launching site: 5, bind address 0.0.0.0:7145
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.456 | start data population for site 6
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.455 | start data population for site 4
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.456 | start data population for site 3
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.457 | start data population for site 5
+I [../src/deptran/server_worker.cc:81] 2023-07-13 22:46:43.455 | start data population for site 2
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:44.977 | data populated for site: 1, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:44.977 | table popped for site 1
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:44.977 | enter SetupService for s201 @ 0.0.0.0:7141
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:44.977 | bind address is: 0.0.0.0:7141
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:44.977 | starting disk thread
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:44.977 | rrr::Server: started on 0.0.0.0:7141
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:44.978 | starting poll thread
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:44.978 | Server s201 ready at 0.0.0.0:7141
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:44.978 | start communication for site 1
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:44.978 | size of partitions: 1
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:44.981 | data populated for site: 6, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:44.981 | table popped for site 6
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:44.981 | enter SetupService for s701 @ 0.0.0.0:7147
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:44.981 | bind address is: 0.0.0.0:7147
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:44.981 | rrr::Server: started on 0.0.0.0:7147
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:44.981 | Server s701 ready at 0.0.0.0:7147
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:44.981 | start communication for site 6
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:44.981 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:44.982 | starting disk thread
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:44.982 | starting poll thread
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:44.986 | data populated for site: 3, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:44.986 | table popped for site 3
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:44.986 | enter SetupService for s401 @ 0.0.0.0:7143
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:44.986 | bind address is: 0.0.0.0:7143
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:44.986 | starting disk thread
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:44.986 | rrr::Server: started on 0.0.0.0:7143
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:44.986 | data populated for site: 0, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:44.986 | table popped for site 0
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:44.986 | enter SetupService for s101 @ 0.0.0.0:7140
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:44.986 | Server s401 ready at 0.0.0.0:7143
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:44.986 | start communication for site 3
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:44.986 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:44.986 | starting poll thread
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:44.987 | starting disk thread
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:44.986 | bind address is: 0.0.0.0:7140
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:44.987 | starting poll thread
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:44.987 | rrr::Server: started on 0.0.0.0:7140
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:44.987 | Server s101 ready at 0.0.0.0:7140
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:44.988 | start communication for site 0
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:44.988 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:44.988 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:44.989 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:44.995 | data populated for site: 5, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:44.996 | table popped for site 5
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:44.996 | enter SetupService for s601 @ 0.0.0.0:7145
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:44.996 | bind address is: 0.0.0.0:7145
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:44.996 | rrr::Server: started on 0.0.0.0:7145
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:44.996 | starting disk thread
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:44.996 | Server s601 ready at 0.0.0.0:7145
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:44.996 | start communication for site 5
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:44.996 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:44.996 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:44.996 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:44.997 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:45.007 | data populated for site: 2, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:45.007 | table popped for site 2
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:45.007 | enter SetupService for s301 @ 0.0.0.0:7142
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:45.007 | bind address is: 0.0.0.0:7142
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:45.007 | starting disk thread
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:45.008 | rrr::Server: started on 0.0.0.0:7142
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:45.008 | Server s301 ready at 0.0.0.0:7142
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:45.008 | start communication for site 2
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:45.008 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:45.008 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.009 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.009 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.010 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.010 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/server_worker.cc:108] 2023-07-13 22:46:45.118 | data populated for site: 4, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-13 22:46:45.118 | table popped for site 4
+I [../src/deptran/server_worker.cc:123] 2023-07-13 22:46:45.118 | enter SetupService for s501 @ 0.0.0.0:7144
+I [../src/rrr/rpc/server.cpp:575] 2023-07-13 22:46:45.118 | bind address is: 0.0.0.0:7144
+I [../src/rrr/rpc/server.cpp:570] 2023-07-13 22:46:45.119 | rrr::Server: started on 0.0.0.0:7144
+I [../src/deptran/server_worker.cc:177] 2023-07-13 22:46:45.119 | Server s501 ready at 0.0.0.0:7144
+I [../src/deptran/s_main.cc:97] 2023-07-13 22:46:45.119 | start communication for site 4
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-13 22:46:45.118 | starting disk threadI [../src/deptran/communicator.cc:25] 2023-07-13 22:46:45.119 | size of partitions: 1
+
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-13 22:46:45.120 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.120 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.120 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.121 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.121 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.121 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.122 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.122 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:45.123 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.123 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.123 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.124 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.124 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.125 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.126 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.126 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:45.127 | site 4 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.979 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:45.980 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7142 success!I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7143 success!
+
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.004 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.005 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.005 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.006 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.005 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.006 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.006 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.006 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.007 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.007 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.007 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.007 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.007 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.008 | size of partitions: 1
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.008 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.009 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.008 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.009 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.009 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.009 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.010 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.010 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.010 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.011 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.011 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.012 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.010 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7142 success!I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.052 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7143 success!
+
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.053 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.053 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.054 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.052 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.054 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.055 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.056 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:25] 2023-07-13 22:46:46.056 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.056 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.057 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.058 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.054 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.058 | ==== connect to site: 127.0.0.1:7142 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.059 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.059 | site 5 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.058 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.060 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.060 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.053 | ==== connect to site: 127.0.0.1:7140 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.061 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.060 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.062 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.061 | ==== connect to site: 127.0.0.1:7144 success!I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.063 | site 0 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.062 | ==== connect to site: 127.0.0.1:7142 success!
+
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.062 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.064 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.062 | ==== connect to site: 127.0.0.1:7141 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.064 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.064 | ==== connect to site: 127.0.0.1:7145 success!I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.065 | site 1 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.064 | ==== connect to site: 127.0.0.1:7144 success!I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.064 | ==== connect to site: 127.0.0.1:7142 success!
+
+
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.065 | ==== connect to site: 127.0.0.1:7143 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.065 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.065 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.066 | site 3 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.066 | ==== connect to site: 127.0.0.1:7144 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.066 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.066 | site 2 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.066 | ==== connect to site: 127.0.0.1:7145 success!
+I [../src/deptran/communicator.cc:194] 2023-07-13 22:46:46.067 | ==== connect to site: 127.0.0.1:7147 success!
+I [../src/deptran/s_main.cc:99] 2023-07-13 22:46:46.068 | site 6 launched!

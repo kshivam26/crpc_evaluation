@@ -1,0 +1,214 @@
+I [../src/deptran/s_main.cc:136] 2023-07-19 14:20:16.562 | PWD : 
+I [../src/deptran/s_main.cc:284] 2023-07-19 14:20:16.562 | starting process 1929060
+I [../src/deptran/s_main.cc:279] 2023-07-19 14:20:16.562 | ulimit -n is 1024
+I [../src/deptran/config.cc:285] 2023-07-19 14:20:16.562 | LoadYML: depfast-ae/config/none_fpga_raft.yml
+I [../src/deptran/config.cc:285] 2023-07-19 14:20:16.564 | LoadYML: depfast-ae/config/1c1s5r1p.yml
+I [../src/deptran/config.cc:404] 2023-07-19 14:20:16.565 | BuildSiteProcMap
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name s101
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name s201
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name s301
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name s401
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name s501
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:408] 2023-07-19 14:20:16.565 | BuildSiteProcMap site name c01
+I [../src/deptran/config.cc:409] 2023-07-19 14:20:16.565 | BuildSiteProcMap proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.565 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.566 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.566 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.566 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.566 | loading proc name localhost
+I [../src/deptran/config.cc:421] 2023-07-19 14:20:16.566 | loading proc name localhost
+I [../src/deptran/config.cc:285] 2023-07-19 14:20:16.566 | LoadYML: depfast-ae/config/rw.yml
+I [../src/deptran/config.cc:661] 2023-07-19 14:20:16.567 | group size: 1
+I [../src/deptran/config.cc:285] 2023-07-19 14:20:16.567 | LoadYML: depfast-ae/config/concurrent_10.yml
+I [../src/deptran/config.cc:321] 2023-07-19 14:20:16.567 | # of concurrent requests: 10
+I [../src/deptran/s_main.cc:290] 2023-07-19 14:20:16.567 | Read config finish
+I [../src/deptran/config.cc:909] 2023-07-19 14:20:16.567 | proc name is: localhost
+I [../src/deptran/config.cc:910] 2023-07-19 14:20:16.567 | the size of the searching vector is:1 
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.567 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.567 | one result pushed to result in SitesByProcessName
+I [../src/deptran/s_main.cc:30] 2023-07-19 14:20:16.568 | client_setup_heartbeat
+I [../src/deptran/config.cc:909] 2023-07-19 14:20:16.568 | proc name is: localhost
+I [../src/deptran/config.cc:910] 2023-07-19 14:20:16.568 | the size of the searching vector is:5 
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.568 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.568 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.568 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.568 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.568 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.568 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.568 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.568 | one result pushed to result in SitesByProcessName
+I [../src/deptran/config.cc:913] 2023-07-19 14:20:16.568 | current site.proc_name is: localhost
+I [../src/deptran/config.cc:919] 2023-07-19 14:20:16.568 | one result pushed to result in SitesByProcessName
+I [../src/deptran/s_main.cc:75] 2023-07-19 14:20:16.568 | server enabled, number of sites: 5
+I [../src/deptran/s_main.cc:81] 2023-07-19 14:20:16.568 | launching site: 0, bind address 0.0.0.0:9130
+I [../src/deptran/s_main.cc:81] 2023-07-19 14:20:16.568 | launching site: 1, bind address 0.0.0.0:9131
+I [../src/deptran/s_main.cc:81] 2023-07-19 14:20:16.569 | launching site: 2, bind address 0.0.0.0:9132
+I [../src/deptran/s_main.cc:81] 2023-07-19 14:20:16.569 | launching site: 4, bind address 0.0.0.0:9134
+I [../src/deptran/server_worker.cc:81] 2023-07-19 14:20:16.569 | start data population for site 0
+I [../src/deptran/server_worker.cc:81] 2023-07-19 14:20:16.569 | start data population for site 1
+I [../src/deptran/server_worker.cc:81] 2023-07-19 14:20:16.570 | start data population for site 2
+I [../src/deptran/s_main.cc:81] 2023-07-19 14:20:16.569 | launching site: 3, bind address 0.0.0.0:9133
+I [../src/deptran/server_worker.cc:81] 2023-07-19 14:20:16.570 | start data population for site 4
+I [../src/deptran/server_worker.cc:81] 2023-07-19 14:20:16.572 | start data population for site 3
+I [../src/deptran/server_worker.cc:108] 2023-07-19 14:20:18.027 | data populated for site: 2, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-19 14:20:18.027 | table popped for site 2
+I [../src/deptran/server_worker.cc:123] 2023-07-19 14:20:18.027 | enter SetupService for s301 @ 0.0.0.0:9132
+I [../src/rrr/rpc/server.cpp:575] 2023-07-19 14:20:18.027 | bind address is: 0.0.0.0:9132
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-19 14:20:18.027 | starting disk thread
+I [../src/rrr/rpc/server.cpp:570] 2023-07-19 14:20:18.028 | rrr::Server: started on 0.0.0.0:9132
+I [../src/deptran/server_worker.cc:177] 2023-07-19 14:20:18.029 | Server s301 ready at 0.0.0.0:9132
+I [../src/deptran/s_main.cc:97] 2023-07-19 14:20:18.029 | start communication for site 2
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:18.028 | starting poll threadI [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.029 | size of partitions: 1
+
+I [../src/deptran/server_worker.cc:108] 2023-07-19 14:20:18.032 | data populated for site: 0, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-19 14:20:18.032 | table popped for site 0
+I [../src/deptran/server_worker.cc:123] 2023-07-19 14:20:18.032 | enter SetupService for s101 @ 0.0.0.0:9130
+I [../src/rrr/rpc/server.cpp:575] 2023-07-19 14:20:18.033 | bind address is: 0.0.0.0:9130
+I [../src/rrr/rpc/server.cpp:570] 2023-07-19 14:20:18.033 | rrr::Server: started on 0.0.0.0:9130
+I [../src/deptran/server_worker.cc:177] 2023-07-19 14:20:18.033 | Server s101 ready at 0.0.0.0:9130
+I [../src/deptran/s_main.cc:97] 2023-07-19 14:20:18.033 | start communication for site 0
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.033 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-19 14:20:18.033 | starting disk thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.033 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:18.033 | starting poll thread
+I [../src/deptran/server_worker.cc:108] 2023-07-19 14:20:18.041 | data populated for site: 1, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-19 14:20:18.041 | table popped for site 1
+I [../src/deptran/server_worker.cc:123] 2023-07-19 14:20:18.041 | enter SetupService for s201 @ 0.0.0.0:9131
+I [../src/rrr/rpc/server.cpp:575] 2023-07-19 14:20:18.042 | bind address is: 0.0.0.0:9131
+I [../src/rrr/rpc/server.cpp:570] 2023-07-19 14:20:18.042 | rrr::Server: started on 0.0.0.0:9131
+I [../src/deptran/server_worker.cc:177] 2023-07-19 14:20:18.042 | Server s201 ready at 0.0.0.0:9131
+I [../src/deptran/s_main.cc:97] 2023-07-19 14:20:18.042 | start communication for site 1
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.042 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-19 14:20:18.042 | starting disk thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.042 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:18.043 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.043 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.045 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/server_worker.cc:108] 2023-07-19 14:20:18.049 | data populated for site: 3, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-19 14:20:18.049 | table popped for site 3
+I [../src/deptran/server_worker.cc:123] 2023-07-19 14:20:18.049 | enter SetupService for s401 @ 0.0.0.0:9133
+I [../src/rrr/rpc/server.cpp:575] 2023-07-19 14:20:18.049 | bind address is: 0.0.0.0:9133
+I [../src/rrr/rpc/server.cpp:570] 2023-07-19 14:20:18.049 | rrr::Server: started on 0.0.0.0:9133
+I [../src/deptran/server_worker.cc:177] 2023-07-19 14:20:18.050 | Server s401 ready at 0.0.0.0:9133
+I [../src/deptran/s_main.cc:97] 2023-07-19 14:20:18.050 | start communication for site 3
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.050 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-19 14:20:18.049 | starting disk thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.050 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:18.050 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.051 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.052 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.052 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/server_worker.cc:108] 2023-07-19 14:20:18.058 | data populated for site: 4, partition: 0
+I [../src/deptran/s_main.cc:91] 2023-07-19 14:20:18.058 | table popped for site 4
+I [../src/deptran/server_worker.cc:123] 2023-07-19 14:20:18.058 | enter SetupService for s501 @ 0.0.0.0:9134
+I [../src/rrr/rpc/server.cpp:575] 2023-07-19 14:20:18.058 | bind address is: 0.0.0.0:9134
+I [../src/rrr/rpc/server.cpp:570] 2023-07-19 14:20:18.058 | rrr::Server: started on 0.0.0.0:9134
+I [../src/deptran/server_worker.cc:177] 2023-07-19 14:20:18.058 | Server s501 ready at 0.0.0.0:9134
+I [../src/deptran/s_main.cc:97] 2023-07-19 14:20:18.059 | start communication for site 4
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.059 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:385] 2023-07-19 14:20:18.059 | starting disk thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.059 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:18.059 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.060 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.061 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.061 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.061 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:18.062 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.062 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.063 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.063 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.064 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:18.064 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/s_main.cc:99] 2023-07-19 14:20:18.065 | site 4 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.029 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.029 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.029 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.029 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.030 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:19.030 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.030 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.030 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.030 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:19.056 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/s_main.cc:99] 2023-07-19 14:20:19.058 | site 2 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.057 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.056 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:19.058 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.057 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.058 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.059 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.059 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.059 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:19.059 | size of partitions: 1
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.059 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.060 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/s_main.cc:99] 2023-07-19 14:20:19.061 | site 3 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.060 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.061 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.062 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.062 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.063 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.063 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/s_main.cc:99] 2023-07-19 14:20:19.064 | site 1 launched!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.064 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.065 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/s_main.cc:99] 2023-07-19 14:20:19.066 | site 0 launched!
+I [../src/deptran/s_main.cc:110] 2023-07-19 14:20:19.569 | waiting for server setup threads.
+I [../src/deptran/s_main.cc:114] 2023-07-19 14:20:19.569 | done waiting for server setup threads.
+I [../src/deptran/s_main.cc:121] 2023-07-19 14:20:19.569 | server workers' communicators setup
+I [../src/deptran/s_main.cc:54] 2023-07-19 14:20:19.569 | client enabled, number of sites: 1
+I [../src/deptran/communicator.cc:25] 2023-07-19 14:20:19.569 | size of partitions: 1
+I [../src/rrr/reactor/reactor.cc:389] 2023-07-19 14:20:19.569 | starting poll thread
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.570 | ==== connect to site: 127.0.0.1:9130 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.571 | ==== connect to site: 127.0.0.1:9131 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.572 | ==== connect to site: 127.0.0.1:9132 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.572 | ==== connect to site: 127.0.0.1:9133 success!
+I [../src/deptran/communicator.cc:194] 2023-07-19 14:20:19.573 | ==== connect to site: 127.0.0.1:9134 success!
+I [../src/deptran/communicator.cc:74] 2023-07-19 14:20:19.574 | Done waiting to connect to client leaders.
+I [../src/deptran/client_worker.cc:184] 2023-07-19 14:20:19.574 | 1) the pid for client is: 1929060
+I [../src/deptran/client_worker.cc:185] 2023-07-19 14:20:19.574 | 2) the thread id for client is: 1929108
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:19.574 | wait for finish... n_ceased_cleints: 0,  n_issued: 0, n_done: 0, n_created_coordinator: 0
+I [../src/deptran/client_worker.cc:348] 2023-07-19 14:20:19.575 | wait for all virtual clients to stop issuing new requests.
+I [../src/deptran/fpga_raft/commo.cc:512] 2023-07-19 14:20:19.613 | in no cRPC; tid of leader is 1929094
+I [../src/deptran/fpga_raft/service.cc:95] 2023-07-19 14:20:19.613 | tid of non-leader is 1929096
+I [../src/deptran/fpga_raft/service.cc:95] 2023-07-19 14:20:19.613 | tid of non-leader is 1929092
+I [../src/deptran/fpga_raft/service.cc:95] 2023-07-19 14:20:19.613 | tid of non-leader is 1929100
+I [../src/deptran/fpga_raft/service.cc:95] 2023-07-19 14:20:19.613 | tid of non-leader is 1929098
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:24.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 21745, n_done: 21735, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:29.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 45627, n_done: 45617, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:34.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 71497, n_done: 71487, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:39.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 95007, n_done: 94997, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:44.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 119042, n_done: 119032, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:49.575 | wait for finish... n_ceased_cleints: 0,  n_issued: 142435, n_done: 142425, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:54.576 | wait for finish... n_ceased_cleints: 0,  n_issued: 167820, n_done: 167810, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:20:59.576 | wait for finish... n_ceased_cleints: 0,  n_issued: 191062, n_done: 191052, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:04.576 | wait for finish... n_ceased_cleints: 0,  n_issued: 214652, n_done: 214642, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:09.576 | wait for finish... n_ceased_cleints: 0,  n_issued: 238354, n_done: 238344, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:14.576 | wait for finish... n_ceased_cleints: 0,  n_issued: 263579, n_done: 263569, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:19.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 286734, n_done: 286724, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:24.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 311361, n_done: 311351, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:29.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 334739, n_done: 334729, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:34.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 357998, n_done: 357988, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:39.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 381669, n_done: 381659, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:44.577 | wait for finish... n_ceased_cleints: 0,  n_issued: 405349, n_done: 405339, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:49.578 | wait for finish... n_ceased_cleints: 0,  n_issued: 429015, n_done: 429005, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:54.578 | wait for finish... n_ceased_cleints: 0,  n_issued: 452548, n_done: 452538, n_created_coordinator: 10
+I [../src/deptran/s_main.cc:140] 2023-07-19 14:21:59.574 | wait_for_clients: wait for client threads to exit.
+I [../src/deptran/client_worker.cc:362] 2023-07-19 14:21:59.578 | wait for finish... n_ceased_cleints: 0,  n_issued: 475767, n_done: 475757, n_created_coordinator: 10
+I [../src/deptran/client_worker.cc:351] 2023-07-19 14:22:00.569 | wait for all outstanding requests to finish.
+I [../src/deptran/client_worker.cc:375] 2023-07-19 14:22:04.578 | Finish:
+Total: 478615, Commit: 478615, Attempts: 0, Running for 100, Throughput: 4786.15
+
+I [../src/deptran/s_main.cc:323] 2023-07-19 14:22:04.578 | all clients have shut down.

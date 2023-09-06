@@ -1,0 +1,84 @@
+top - 22:00:10 up 152 days, 23:59,  8 users,  load average: 3.80, 3.56, 4.80
+Threads:   9 total,   1 running,   8 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.7 us,  2.6 sy,  0.0 ni, 94.6 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :  96521.4 total,  44089.7 free,  20914.3 used,  31517.4 buff/cache
+MiB Swap:   8192.0 total,   6829.4 free,   1362.6 used.  74223.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 331290 kkumar    20   0 1543644   1.2g   6480 S  60.0   1.3   4:49.65 deptran_server
+ 331288 kkumar    20   0 1543644   1.2g   6480 R  46.7   1.3   3:34.82 deptran_server
+ 331286 kkumar    20   0 1543644   1.2g   6480 S  33.3   1.3   2:46.75 deptran_server
+ 331311 kkumar    20   0 1543644   1.2g   6480 S  33.3   1.3   1:47.74 deptran_server
+ 331287 kkumar    20   0 1543644   1.2g   6480 S  20.0   1.3   1:05.02 deptran_server
+ 331289 kkumar    20   0 1543644   1.2g   6480 S  20.0   1.3   1:06.55 deptran_server
+ 331291 kkumar    20   0 1543644   1.2g   6480 S  13.3   1.3   1:06.48 deptran_server
+ 331282 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+ 331312 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+
+top - 22:00:13 up 152 days, 23:59,  8 users,  load average: 3.66, 3.53, 4.79
+Threads:   9 total,   2 running,   7 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  1.5 sy,  0.0 ni, 95.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :  96521.4 total,  44089.7 free,  20914.4 used,  31517.4 buff/cache
+MiB Swap:   8192.0 total,   6829.4 free,   1362.6 used.  74222.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 331290 kkumar    20   0 1543644   1.2g   6480 R  66.3   1.3   4:51.64 deptran_server
+ 331288 kkumar    20   0 1543644   1.2g   6480 S  49.0   1.3   3:36.29 deptran_server
+ 331286 kkumar    20   0 1543644   1.2g   6480 S  38.0   1.3   2:47.89 deptran_server
+ 331311 kkumar    20   0 1543644   1.2g   6480 S  24.7   1.3   1:48.48 deptran_server
+ 331289 kkumar    20   0 1543644   1.2g   6480 S  15.3   1.3   1:07.01 deptran_server
+ 331287 kkumar    20   0 1543644   1.2g   6480 S  14.7   1.3   1:05.46 deptran_server
+ 331291 kkumar    20   0 1543644   1.2g   6480 R  14.7   1.3   1:06.92 deptran_server
+ 331282 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+ 331312 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+
+top - 22:00:16 up 152 days, 23:59,  8 users,  load average: 3.66, 3.53, 4.79
+Threads:   9 total,   1 running,   8 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.5 us,  1.4 sy,  0.0 ni, 95.8 id,  0.0 wa,  0.0 hi,  0.3 si,  0.0 st
+MiB Mem :  96521.4 total,  44088.2 free,  20915.8 used,  31517.4 buff/cache
+MiB Swap:   8192.0 total,   6829.4 free,   1362.6 used.  74221.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 331290 kkumar    20   0 1543644   1.2g   6480 R  63.8   1.3   4:53.56 deptran_server
+ 331288 kkumar    20   0 1543644   1.2g   6480 S  47.2   1.3   3:37.71 deptran_server
+ 331286 kkumar    20   0 1543644   1.2g   6480 S  36.2   1.3   2:48.98 deptran_server
+ 331311 kkumar    20   0 1543644   1.2g   6480 S  24.3   1.3   1:49.21 deptran_server
+ 331289 kkumar    20   0 1543644   1.2g   6480 S  14.6   1.3   1:07.45 deptran_server
+ 331291 kkumar    20   0 1543644   1.2g   6480 S  14.6   1.3   1:07.36 deptran_server
+ 331287 kkumar    20   0 1543644   1.2g   6480 S  14.0   1.3   1:05.88 deptran_server
+ 331282 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+ 331312 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+
+top - 22:00:19 up 152 days, 23:59,  8 users,  load average: 3.60, 3.52, 4.78
+Threads:   9 total,   3 running,   6 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.9 us,  1.5 sy,  0.0 ni, 95.4 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :  96521.4 total,  44087.3 free,  20916.8 used,  31517.4 buff/cache
+MiB Swap:   8192.0 total,   6829.4 free,   1362.6 used.  74220.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 331290 kkumar    20   0 1543644   1.2g   6480 R  63.0   1.3   4:55.45 deptran_server
+ 331288 kkumar    20   0 1543644   1.2g   6480 R  44.7   1.3   3:39.05 deptran_server
+ 331286 kkumar    20   0 1543644   1.2g   6480 R  34.7   1.3   2:50.02 deptran_server
+ 331311 kkumar    20   0 1543644   1.2g   6480 S  23.0   1.3   1:49.90 deptran_server
+ 331289 kkumar    20   0 1543644   1.2g   6480 S  14.7   1.3   1:07.89 deptran_server
+ 331287 kkumar    20   0 1543644   1.2g   6480 S  14.3   1.3   1:06.31 deptran_server
+ 331291 kkumar    20   0 1543644   1.2g   6480 S  14.3   1.3   1:07.79 deptran_server
+ 331282 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+ 331312 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+
+top - 22:00:22 up 152 days, 23:59,  8 users,  load average: 3.60, 3.52, 4.78
+Threads:   9 total,   0 running,   9 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  2.6 us,  1.4 sy,  0.0 ni, 95.8 id,  0.0 wa,  0.0 hi,  0.2 si,  0.0 st
+MiB Mem :  96521.4 total,  44086.3 free,  20917.7 used,  31517.4 buff/cache
+MiB Swap:   8192.0 total,   6829.4 free,   1362.6 used.  74219.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 331290 kkumar    20   0 1543644   1.2g   6480 S  66.8   1.3   4:57.46 deptran_server
+ 331288 kkumar    20   0 1543644   1.2g   6480 S  49.2   1.3   3:40.53 deptran_server
+ 331286 kkumar    20   0 1543644   1.2g   6480 S  37.2   1.3   2:51.14 deptran_server
+ 331311 kkumar    20   0 1543644   1.2g   6480 S  24.6   1.3   1:50.64 deptran_server
+ 331289 kkumar    20   0 1543644   1.2g   6480 S  15.0   1.3   1:08.34 deptran_server
+ 331291 kkumar    20   0 1543644   1.2g   6480 S  15.0   1.3   1:08.24 deptran_server
+ 331287 kkumar    20   0 1543644   1.2g   6480 S  14.3   1.3   1:06.74 deptran_server
+ 331282 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
+ 331312 kkumar    20   0 1543644   1.2g   6480 S   0.0   1.3   0:00.00 deptran_server
